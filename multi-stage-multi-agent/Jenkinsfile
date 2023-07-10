@@ -6,7 +6,7 @@ pipeline {
         docker { image 'maven:3.8.1-adoptopenjdk-11' }
       }
       steps {
-        sh 'HHelloWorld.java'
+        sh 'HelloWorld.java'
       }
     }
     stage('Front-end') {
